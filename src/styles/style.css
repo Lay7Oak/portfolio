@@ -70,7 +70,7 @@
 
     z-index: 1;
     color: #ffffffc5;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     font-family: "Josefin Slab", serif;
     text-align: center;
 
@@ -129,6 +129,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-left: 12%;
+    align-items: flex-start;
     
 
     /* border-left: solid 3px #ffffff6a; */
@@ -149,8 +151,7 @@
 
 
 
-/*
-    video{
+    video, iframe{
 
       min-width: 50%;
       min-height: 50%;
@@ -161,20 +162,25 @@
       border: 1px solid rgba(240, 248, 255, 0.566);
       padding: 15px;
 
-    } */
+    }
 
-
+    .ferramentas{
+     color: #efede4;
+     text-transform:capitalize;
+     font-family: "Josefin Slab", serif;
+    }
 
     li, a{
 
     color: #fff;
     list-style:none;
-    line-height: 3.3rem;
+    line-height: 3rem;
     text-decoration: none;
     text-transform:capitalize;
     font-family: "Josefin Slab", serif;
-    font-size: 1.5rem;
-    margin-left: 10px;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    /* margin-left: 10px; */
     white-space: nowrap;
     overflow: hidden;
    }
@@ -226,7 +232,7 @@
 
   #sou{
     padding: 10px;
-    font-size: 19pt;
+    font-size: 17pt;
 
   }
 
